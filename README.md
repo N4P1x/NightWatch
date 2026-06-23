@@ -22,7 +22,6 @@ A production-ready cyber threat intelligence platform for monitoring dark web th
 | ![Threat Actors](media/threat-actors.png) | ![IOCs](media/iocs.png) |
 | ![Sources](media/sources.png) | ![Alerts](media/alerts.png) |
 | ![Login](media/login.png) | ![Settings](media/settings.png) |
-| ![API Docs](media/api-docs.png) | |
 
 ## Architecture
 
