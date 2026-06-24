@@ -18,6 +18,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r backend/requirements.txt
+          pip install ruff mypy
       - name: ruff check
         run: cd backend && ruff check .
       - name: mypy
@@ -35,6 +36,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r backend/requirements.txt
+          pip install pytest pytest-asyncio pytest-anyio httpx loguru aiosqlite
       - name: Run tests
         run: cd backend && python -m pytest tests/ -v --tb=short
 
