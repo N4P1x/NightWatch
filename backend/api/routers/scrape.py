@@ -1,5 +1,5 @@
 """
-NightWatch Scrape API Router
+Night-Watch Scrape API Router
 Endpoints for triggering, monitoring, and controlling scraping operations.
 """
 
@@ -75,9 +75,9 @@ async def stop_scrape(
 async def scrape_stats_websocket(websocket: WebSocket):
     """WebSocket endpoint for real-time scrape statistics."""
     subprotocols = websocket.scope.get("subprotocols", [])
-    selected = next((p for p in subprotocols if p.startswith("nightwatch.")), None)
+    selected = next((p for p in subprotocols if p.startswith("night-watch.")), None)
     await websocket.accept(subprotocol=selected)
-    token = selected[len("nightwatch."):] if selected else None
+    token = selected[len("night-watch."):] if selected else None
     if not token:
         token = websocket.cookies.get("access_token")
     if token:

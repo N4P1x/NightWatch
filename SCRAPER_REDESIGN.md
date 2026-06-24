@@ -1,8 +1,8 @@
-# NightWatch Scraper Redesign — 1000X Better Architecture
+# Night-Watch Scraper Redesign — 1000X Better Architecture
 
 ## Executive Summary
 
-This document outlines a comprehensive redesign of the NightWatch scraping infrastructure, transforming a simple 730-line Tor scraper into an enterprise-grade, distributed intelligence gathering platform capable of 10,000x the throughput and sophistication.
+This document outlines a comprehensive redesign of the Night-Watch scraping infrastructure, transforming a simple 730-line Tor scraper into an enterprise-grade, distributed intelligence gathering platform capable of 10,000x the throughput and sophistication.
 
 ---
 
@@ -262,14 +262,14 @@ This document outlines a comprehensive redesign of the NightWatch scraping infra
 
 ## Conclusion
 
-The NightWatch scraper redesign represents a fundamental transformation from a basic data collection tool to an enterprise-grade intelligence gathering platform. The new architecture will enable:
+The Night-Watch scraper redesign represents a fundamental transformation from a basic data collection tool to an enterprise-grade intelligence gathering platform. The new architecture will enable:
 
 1. **Massive Scale**: Handle 10,000+ concurrent requests
 2. **Advanced Intelligence**: Machine learning-powered threat detection
 3. **Real-time Operations**: Live analytics and alerting
 4.仿真 5. **Enterprise Readiness**: Production-ready with comprehensive monitoring
 
-This transformation will position NightWatch as a leader in dark web intelligence gathering, providing customers with unprecedented visibility into emerging threats and vulnerabilities.
+This transformation will position Night-Watch as a leader in dark web intelligence gathering, providing customers with unprecedented visibility into emerging threats and vulnerabilities.
 
 ---
 
@@ -295,4 +295,4 @@ This transformation will position NightWatch as a leader in dark web intelligenc
 
 ---
 
-This comprehensive redesign will fundamentally transform NightWatch from a basic data collection tool into a sophisticated intelligence gathering platform capable of delivering enterprise-grade threat detection and analysis capabilities.
+This comprehensive redesign will fundamentally transform Night-Watch from a basic data collection tool into a sophisticated intelligence gathering platform capable of delivering enterprise-grade threat detection and analysis capabilities.

@@ -1,5 +1,5 @@
 """
-NightWatch Async Tor Scraper
+Night-Watch Async Tor Scraper
 Uses httpx with SOCKS5 proxy for Tor hidden service scraping.
 """
 

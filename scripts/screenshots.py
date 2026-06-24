@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Take screenshots of NightWatch platform pages."""
+"""Take screenshots of Night-Watch platform pages."""
 import asyncio
 import urllib.request
 import urllib.parse
@@ -8,7 +8,7 @@ from playwright.async_api import async_playwright
 
 BASE_URL = "http://127.0.0.1:3000"
 API_URL = "http://127.0.0.1:8000"
-OUTPUT_DIR = "/home/n4p1/NightWatch/media"
+OUTPUT_DIR = "/home/n4p1/Night-Watch/media"
 
 
 async def take_screenshots():

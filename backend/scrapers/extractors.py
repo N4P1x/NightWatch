@@ -1,5 +1,5 @@
 """
-NightWatch Advanced IOC & Leak Extractor
+Night-Watch Advanced IOC & Leak Extractor
 Regex + heuristic extraction with confidence scoring, deduplication, and context analysis.
 """
 

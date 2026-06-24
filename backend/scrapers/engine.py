@@ -1,5 +1,5 @@
 """
-NightWatch Advanced Scraping Engine
+Night-Watch Advanced Scraping Engine
 Async httpx-based engine with retry, circuit breaker, anti-fingerprinting, and health monitoring.
 """
 

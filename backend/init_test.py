@@ -8,7 +8,7 @@ async def init_database():
     print("Initializing test database...")
 
     # SQLite connection
-    sync_engine = create_engine('sqlite:///./nightwatch.db', echo=False)
+    sync_engine = create_engine('sqlite:///./night-watch.db', echo=False)
 
     with sync_engine.connect() as conn:
         conn.execute(text('CREATE TABLE IF NOT EXISTS users ('
@@ -23,7 +23,7 @@ async def init_database():
 
     with sync_engine.connect() as conn:
         conn.execute(text('INSERT INTO users (id, username, email, hashed_password, role, is_active) '
-                     'VALUES (1, \"admin\", \"admin@nightwatch.io\", '
+                     'VALUES (1, \"admin\", \"admin@night-watch.io\", '
                      '\"$2b$12\\$KzDznk0agj2TKGl6/0ydq.Z3a4X8HLS4nY/.tckOvnXJ8ems9GLaS\", '
                      '\"admin\", 1) ON CONFLICT (id) DO NOTHING'))
         print("Inserted admin user")

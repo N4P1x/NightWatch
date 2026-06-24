@@ -21,8 +21,8 @@ docker-data/
 *.log
 backend.log
 frontend.log
-nightwatch.db
-nightwatch_*.db
+night-watch.db
+night-watch_*.db
 frontend/dist/
 backend/logs/
 logs/

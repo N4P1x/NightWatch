@@ -1,4 +1,4 @@
-# NightWatch - Dark Web Threat Intelligence Platform
+# Night-Watch - Dark Web Threat Intelligence Platform
 
 A production-ready cyber threat intelligence platform for monitoring dark web threats, ransomware leaks, and cybercriminal activities. Collects and analyzes intelligence from Tor hidden services, ransomware blogs, hacker forums, marketplaces, paste sites, and clearnet sources.
 
@@ -26,7 +26,7 @@ A production-ready cyber threat intelligence platform for monitoring dark web th
 ## Architecture
 
 ```
-nightwatch/
+night-watch/
 ├── backend/
 │   ├── api/                  # FastAPI application
 │   │   ├── main.py           # App entry point
@@ -114,7 +114,7 @@ nightwatch/
 ├── docker-compose.yml        # Development stack
 ├── docker-compose.prod.yml   # Production stack
 ├── docker-compose.simple.yml # Minimal stack
-└── nginx-nightwatch.conf     # Nginx config (bare-metal)
+└── nginx-night-watch.conf     # Nginx config (bare-metal)
 ```
 
 ## Tech Stack
@@ -169,15 +169,15 @@ nightwatch/
 
 ```bash
 # Clone the repository
-git clone https://github.com/N4P1x/NightWatch.git
-cd NightWatch
+git clone https://github.com/N4P1x/Night-Watch.git
+cd Night-Watch
 
 # Copy environment configuration
 cp config/.env.example .env
 
 # Edit .env with your configuration (generate a SECRET_KEY)
 # SECRET_KEY=your-secure-random-key
-# DATABASE_URL=postgresql://nightwatch:your-password@postgres:5432/nightwatch
+# DATABASE_URL=postgresql://night-watch:your-password@postgres:5432/night-watch
 
 # Start all services
 docker-compose up -d
@@ -446,7 +446,7 @@ The production stack adds:
 
 ### Bare Metal
 
-The included `nginx-nightwatch.conf` provides Nginx configuration for production deployments:
+The included `nginx-night-watch.conf` provides Nginx configuration for production deployments:
 
 ```nginx
 # Serves frontend from frontend/dist

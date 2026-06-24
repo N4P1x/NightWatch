@@ -1,5 +1,5 @@
 """
-NightWatch Clearnet Scraper
+Night-Watch Clearnet Scraper
 Async scraper for clearnet paste sites, forums, and news feeds.
 No Tor proxy - direct HTTP(S) connections.
 """

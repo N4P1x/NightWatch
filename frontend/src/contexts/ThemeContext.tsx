@@ -11,13 +11,13 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
-    const saved = localStorage.getItem('nightwatch-theme')
+    const saved = localStorage.getItem('night-watch-theme')
     if (saved === 'light' || saved === 'dark') return saved
     return 'dark'
   })
 
   useEffect(() => {
-    localStorage.setItem('nightwatch-theme', theme)
+    localStorage.setItem('night-watch-theme', theme)
     if (theme === 'light') {
       document.documentElement.classList.add('light')
     } else {

@@ -1,5 +1,5 @@
 """
-NightWatch IOC Enrichment Pipeline
+Night-Watch IOC Enrichment Pipeline
 Post-extraction enrichment: deduplication, correlation, scoring, tagging.
 """
 

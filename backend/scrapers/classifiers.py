@@ -1,5 +1,5 @@
 """
-NightWatch Content Classifier
+Night-Watch Content Classifier
 Multi-signal content classification with severity assessment.
 """
 

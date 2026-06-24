@@ -1,5 +1,5 @@
 #!/bin/bash
-# NightWatch - Start Script
+# Night-Watch - Start Script
 # Usage: ./start.sh
 
 set -e
@@ -16,7 +16,7 @@ elif [ -d "$SCRIPT_DIR/venv" ] && [ -f "$SCRIPT_DIR/venv/bin/python" ]; then
     PYTHON="$SCRIPT_DIR/venv/bin/python"
 fi
 
-echo "[*] Starting NightWatch..."
+echo "[*] Starting Night-Watch..."
 
 # Kill any existing processes
 kill_processes() {
@@ -80,7 +80,7 @@ sleep 2
 
 echo ""
 echo "==================================="
-echo " NightWatch is running!"
+echo " Night-Watch is running!"
 echo "==================================="
 echo " Frontend: http://127.0.0.1:3000"
 echo " Backend:  http://127.0.0.1:8000"

@@ -1,5 +1,5 @@
 """
-NightWatch Source Manager
+Night-Watch Source Manager
 Manages scraping sources: health tracking, scheduling, priority queuing.
 """
 

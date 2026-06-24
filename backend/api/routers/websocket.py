@@ -22,8 +22,8 @@ async def websocket_endpoint(
     token = None
     subprotocols: list = websocket.scope.get("subprotocols", [])
     for p in subprotocols:
-        if p.startswith("nightwatch."):
-            token = p[len("nightwatch."):]
+        if p.startswith("night-watch."):
+            token = p[len("night-watch."):]
             selected_protocol = p
             break
 

@@ -23,7 +23,7 @@ async def seed_data():
         if not existing_user:
             admin = User(
                 username="admin",
-                email="admin@nightwatch.local",
+                email="admin@night-watch.local",
                 hashed_password=pwd_context.hash("admin123"),
                 role="admin",
                 is_active=True,
